@@ -1,6 +1,11 @@
 package net.danc.dansmod;
 
 import com.mojang.logging.LogUtils;
+import net.danc.dansmod.block.ModdedBlocks;
+import net.danc.dansmod.item.ModItems;
+import net.danc.dansmod.item.NewCreativeModeTabs;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -24,6 +29,9 @@ public class dansmod
     public dansmod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        NewCreativeModeTabs.register(modEventBus);
+        ModItems.register((modEventBus));
+        ModdedBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -44,6 +52,7 @@ public class dansmod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+
 
     }
 
