@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BSB",
+    "SHS",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:beetroot"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "H": {
+      "item": "minecraft:honey_block"
+    }
+  },
+    "result": {
+      "item": "dansmod:strawberry_block",
+      "count": 4
+    }
+
+}

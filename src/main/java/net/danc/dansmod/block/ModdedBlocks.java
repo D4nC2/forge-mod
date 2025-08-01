@@ -19,7 +19,7 @@ public class ModdedBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, dansmod.MOD_ID);
 
     public static final RegistryObject<Block> OAT_BLOCK = registerBlock("oat_block",
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).strength(2f)));
 
     public static final RegistryObject<Block> STRAWBERRY_BLOCK = registerBlock("strawberry_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MELON)));

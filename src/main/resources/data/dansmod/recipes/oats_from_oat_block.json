@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dansmod:oat_block"
+    }
+  ],
+  "result": {
+    "item": "dansmod:oats",
+    "count": 4
+  }
+}

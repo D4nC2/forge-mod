@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern" : [
+    "   ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "dansmod:oats"
+    }
+  },
+  "result": {
+    "item": "dansmod:oat_block"
+  }
+}

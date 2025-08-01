@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 23,
+  "ingredient": {
+    "item": "dansmod:oats"
+  },
+  "result": "dansmod:porridge"
+}

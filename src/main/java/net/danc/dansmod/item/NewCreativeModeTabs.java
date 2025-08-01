@@ -20,6 +20,7 @@ public class NewCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.PORRIDGE.get());
                         pOutput.accept(ModItems.OATS.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModdedBlocks.OAT_BLOCK.get());
                         pOutput.accept(ModdedBlocks.STRAWBERRY_BLOCK.get());
                     })
