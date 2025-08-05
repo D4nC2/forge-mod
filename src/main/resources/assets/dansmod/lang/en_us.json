@@ -4,5 +4,6 @@
   "creativetab.porridge_tab": "Porridge",
   "block.dansmod.oat_block": "Compressed Oat Block",
   "block.dansmod.strawberry_block": "Giant Strawberry",
-  "item.dansmod.metal_detector": "Metal Detector"
+  "item.dansmod.metal_detector": "Metal Detector",
+  "block.dansmod.sound_block": "Sound Block"
 }

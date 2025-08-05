@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dansmod:block/sound_block"
+    }
+  }
+}

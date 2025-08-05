@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, dansmod.MOD_ID);
 
     public static final RegistryObject<Item> PORRIDGE = ITEMS.register("porridge",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.PORRIDGE)));
 public static final RegistryObject<Item> OATS = ITEMS.register("oats",
         () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",

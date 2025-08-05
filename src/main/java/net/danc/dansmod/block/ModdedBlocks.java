@@ -1,6 +1,7 @@
 package net.danc.dansmod.block;
 
 
+import net.danc.dansmod.block.custom.sound_block;
 import net.danc.dansmod.dansmod;
 import net.danc.dansmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -23,6 +24,8 @@ public class ModdedBlocks {
 
     public static final RegistryObject<Block> STRAWBERRY_BLOCK = registerBlock("strawberry_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MELON)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new sound_block(BlockBehaviour.Properties.copy(Blocks.MELON)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

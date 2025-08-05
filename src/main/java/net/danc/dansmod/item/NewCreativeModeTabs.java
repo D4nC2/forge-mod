@@ -23,6 +23,7 @@ public class NewCreativeModeTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModdedBlocks.OAT_BLOCK.get());
                         pOutput.accept(ModdedBlocks.STRAWBERRY_BLOCK.get());
+                    pOutput.accept(ModdedBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
